@@ -28,7 +28,17 @@ export const sidebar = [
 		items: [
 			group('projects.frontend', {
 				items: [
-					'frontend-projects/overview'
+					'frontend-projects/overview',
+					'frontend-projects/personal-portfolio',
+					'frontend-projects/weather-dashboard',
+					'frontend-projects/pomodoro-timer',
+					'frontend-projects/virtual-journal',
+					'frontend-projects/notes-app',
+					'frontend-projects/temperature-converter',
+					'frontend-projects/personal-portfolio-blog',
+					'frontend-projects/social-media-dashboard',
+					'frontend-projects/story-feature',
+					
 				]
 			}),
 			group('projects.backend', {

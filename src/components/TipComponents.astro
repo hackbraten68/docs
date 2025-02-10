@@ -1,0 +1,37 @@
+---
+// src/components/TipComponents.astro
+interface Props {
+	icon: string;
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<div class="card mb-4 hover:shadow-lg transition-shadow bg-white rounded-lg shadow">
+	<div class="card-header flex flex-row items-center gap-4 p-4 border-b">
+		<div class="icon-wrapper w-8 h-8 text-blue-500">
+			<slot name="icon" />
+		</div>
+		<h3 class="text-xl font-semibold">{title}</h3>
+	</div>
+	<div class="card-content p-4">
+		<slot />
+	</div>
+</div>
+
+<style>
+	.card {
+		border: 1px solid #e2e8f0;
+	}
+
+	.card:hover {
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+	}
+
+	.icon-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>

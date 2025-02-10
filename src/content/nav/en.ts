@@ -1,10 +1,21 @@
 export default {
 	start: 'Start',
 	'start.welcome': 'Welcome, world!',
-	'start.newProject': 'Start a new project',
+	'start.beginnerTips': 'Tips for Beginners',
 	'start.config': 'Configuration',
 	'start.migrate': 'Migrate to Astro',
 
+	// Projects
+	projects: 'Projects',
+	'projects.frontend': 'Frontend Projects',
+	'projects.backend': 'Backend Projects',
+	'projects.database': 'Database Projects',
+	'projects.cloud': 'Cloud Projects',
+	
+	// GitHub Course
+	github: 'GitHub Course',
+	'github.prerequisite': 'Before we start',
+	
 	guides: 'Guides and recipes',
 	'guides.routing': 'Routing and navigation',
 	'guides.ui': 'Build your UI',
